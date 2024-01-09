@@ -1,0 +1,58 @@
+.row{
+    display:flex !important;
+    justify-content: space-evenly !important;
+}
+h1{
+    text-transform: uppercase;
+}
+.card-body{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+body {
+    background-image: url('https://th.bing.com/th/id/OIP.NlbpcgzxjlEfJFpbnhG7wwHaEo?w=244&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7');
+    background-position: center;
+}
+
+.card {
+    
+    backdrop-filter: blur(52px) saturate(180%);
+    -webkit-backdrop-filter: blur(13px) saturate(180%);
+    background-color: rgba(18, 163, 212, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.299);
+    background: rgb(34,193,195);
+background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+.card-text{
+    
+    text-decoration-color: rgb(102, 4, 239);
+    color: #050c08;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #bf2121; 
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+.card-header{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.btn-primary{
+    background: rgb(58,11,226);
+background: radial-gradient(circle, rgba(58,11,226,0) 0%, rgb(245, 29, 5) 84%);
+    font-weight: bold;
+    color: #bf2121;
+    
+}
